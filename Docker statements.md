@@ -1,6 +1,6 @@
 # Docker
 
-> **in website " docker with play " **
+> **in website " docker with play "**
 
 **docker version**
 
@@ -66,12 +66,12 @@ IMAGE -->"alpine"
  
 ```
 
-$ docker container run -d -p 80:80 nginx:latest
+docker container run -d -p 80:80 nginx:latest
 
 ```
 we make container with image "nginx:latest" --> this is a web service
 and " -d " this container will run in background and cannot see the terminal -->"-t "opposite "-p"
-" -p 80:80 " we make mapping
+    " -p 80:80 " we make mapping
 
 ```
 
